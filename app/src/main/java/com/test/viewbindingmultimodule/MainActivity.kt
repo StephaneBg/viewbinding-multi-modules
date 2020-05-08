@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val dummyView = DummyViewBinding.inflate(layoutInflater)
-        binding.container.addView(dummyView)
+        binding.container.addView(dummyView.root)
     }
 }
